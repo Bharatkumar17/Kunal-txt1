@@ -699,7 +699,7 @@ async def set_max_running_time_handler(_, message):
 
 #=================== TXT CALLING COMMAND ==========================
 
-@bot.on_message(filters.command(["txt"]))
+@bot.on_message(filters.command(["bharat"]))
 async def luminant_command(bot: Client, m: Message):
     global bot_running, start_time, total_running_time, max_running_time
     global log_channel_id, my_name, overlay, accept_logs
@@ -1343,7 +1343,7 @@ OR Use /remove_chat
 
 🚀 **General Commands:**
 
-4. **/kunal** - 💡 Type this before sending your **📃.txt** file.
+4. **/bharat** - 💡 Type this before sending your **📃.txt** file.
 
 5. **/start** - 📛 Start the bot and receive a welcome message.
 
@@ -1440,7 +1440,7 @@ OWNER_TEXT = """
 
 🚀 **General Commands:**
 
-12. **/kunal** - 💡 Type this before sending your **📃.txt** file.
+12. **/bharat** - 💡 Type this before sending your **📃.txt** file.
 
 13. **/start** - 📛 Start the bot and receive a welcome message.
 
@@ -1507,6 +1507,6 @@ keyboard = InlineKeyboardMarkup(
 
 #================== id command button ===========================
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton(text="Send Here", url=f"https://t.me/ikunalx")]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton(text="Send Here", url=f"t.me/Bbbbbbbah")]])
 
 bot.run()
