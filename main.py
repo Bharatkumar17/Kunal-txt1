@@ -51,8 +51,8 @@ OWNER_IDS = [1012164907]  # Replace with the actual owner user IDs
 cookies_file_path = "modules/cookies.txt"
 # Global variables
 log_channel_id = -1002607015025
-authorized_users = []
-ALLOWED_CHANNEL_IDS = []
+authorized_users = [1012164907]
+ALLOWED_CHANNEL_IDS = [-1002607015025]
 my_name = "BHARAT❤️"
 overlay = None 
 accept_logs = 0
@@ -422,7 +422,7 @@ async def start(client: Client, msg: Message):
             Data.START.format(msg.from_user.mention) +
             "You are currently using the free version. 🆓\n\n"
             "I'm here to make your life easier by downloading videos from your **.txt** file 📄 and uploading them directly to Telegram!\n\n"
-            "Want to get started? Press /id\n\n💬 Contact @ikunalx to Get The Subscription 🎫 and unlock the full potential of your new bot! 🔓"
+            "Want to get started? Press /id\n\n💬 Contact  to Get The Subscription 🎫 and unlock the full potential of your new bot! 🔓"
         )
 
 
